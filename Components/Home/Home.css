@@ -1,0 +1,44 @@
+.main-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-left: 1rem;
+}
+
+.moreinfo {
+  text-align: justify;
+  width: 50%;
+}
+
+.hello {
+  margin-top: 5px;
+}
+
+.personal-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
+
+.link-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-img {
+  margin-top: 20px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#btnDescargar {
+  /* display: inline-block; */
+  padding: 10px 20px;
+  background-color: var(--details-color);
+  color: var(--text-color);
+  border-radius: 5px;
+}
